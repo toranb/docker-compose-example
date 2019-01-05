@@ -1,3 +1,9 @@
+git clone https://github.com/toranb/docker-compose-example.git
+
+mv docker-compose-example example
+
+cd example
+
 docker-compose build
 
 docker-compose up --scale app=4
