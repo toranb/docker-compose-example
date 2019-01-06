@@ -7,9 +7,3 @@ cd example
 docker-compose build
 
 docker-compose up --scale app=2
-
-note: .env file is required to spin up Postgres
-
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=foo
